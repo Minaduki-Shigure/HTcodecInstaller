@@ -1,0 +1,33 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\HTencode]
+
+@="用滑稽压缩"
+
+[HKEY_CLASSES_ROOT\*\shell\HTencode\command]
+
+@="D:\\HTcodec\\main.exe -e %1"
+
+[HKEY_CLASSES_ROOT\.enc]
+
+@="HTcodec"
+
+[HKEY_CLASSES_ROOT\*\shell\HTcodec]
+
+@="用滑稽解压"
+
+[HKEY_CLASSES_ROOT\*\shell\HTcodec\command]
+
+@="D:\\HTcodec\\main.exe -d %1"
+
+[HKEY_CLASSES_ROOT\.enc\shell\HTcodec]
+
+@="用滑稽解压"
+
+[HKEY_CLASSES_ROOT\.enc\shell\HTcodec\command]
+
+@="D:\\HTcodec\\main.exe -d %1"
+
+[HKEY_CLASSES_ROOT\HTcodec\DefaultIcon]
+
+@="D:\\HTcodec\\huaji.ico,0"
