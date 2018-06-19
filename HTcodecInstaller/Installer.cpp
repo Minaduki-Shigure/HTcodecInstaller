@@ -23,9 +23,9 @@ int main(void)
 	if (!CopyFile(".\\Install.reg", "E:\\HTcodec\\Install.reg", FALSE))
 		printf("安装失败！\n");
 	if (!system("E:\\HTcodec\\Install.reg"))
-		printf("\n\n\t\t安装成功！\n\n\n");
+		printf("\n安装成功！\n\n\n");
 	else
-		printf("\t\t安装失败！");
+		printf("安装失败！");
 	system("pause");
 	return 0;
 }
